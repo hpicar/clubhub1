@@ -3,7 +3,7 @@
         <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
         <v-toolbar-title>
-            <span>ClubHub</span>
+            <h1>ClubHub</h1>
         </v-toolbar-title>
     
         <v-spacer></v-spacer>
