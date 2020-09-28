@@ -1,9 +1,9 @@
 <template>
-    <v-app-bar app color="blue darken-3" height="100" dark>
+    <v-app-bar app height="100" color="blue darken-3" dark>
         <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
         <v-toolbar-title>
-            <span class="">ClubHub</span>
+            <span>ClubHub</span>
         </v-toolbar-title>
     
         <v-spacer></v-spacer>
@@ -21,8 +21,12 @@
             <span class="mr-2">My Account</span> 
         </v-btn>
 
-        <v-navigation-drawer v-model="drawer" app color="blue lighten-4">
-            
+        <v-navigation-drawer app absolute v-model="drawer" color="blue darken-1">
+            <v-list>
+                <v-list-item v-for="link in links" :key="link.text" :to="link.route">
+                        <v-list-item-title class="white--text">{{ link.text }}</v-list-item-title>
+                </v-list-item>
+            </v-list>
         </v-navigation-drawer>
     
     </v-app-bar>
@@ -30,9 +34,13 @@
 
 <script>
 export default {
-    data(){
+    data() {
         return {
-            drawer: false
+            drawer: false,
+            links: [
+                { text: 'Home', route: '/'},
+                { text: 'Browse Clubs', route: '/browse'},
+            ],
         }
     }
 }
