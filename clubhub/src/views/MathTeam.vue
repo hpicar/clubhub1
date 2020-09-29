@@ -4,8 +4,12 @@
             <v-toolbar-title class="ml-15">Math Team</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn text>
-                <v-icon>mdi-calendar-blank</v-icon>
+                <v-icon left>mdi-calendar-blank</v-icon>
                 <span>Events</span>
+            </v-btn>
+            <v-btn text>
+                <v-icon left>mdi-file-document-multiple</v-icon>
+                <span>Resources</span>
             </v-btn>
             <v-btn text>
                 <span>About</span>

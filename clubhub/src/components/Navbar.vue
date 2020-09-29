@@ -10,7 +10,6 @@
 
         <v-btn text>
             <span class="mr-2">Master Calendar</span>
-            <v-icon>mdi-open-in-new</v-icon>
         </v-btn>
 
         <v-btn text>
@@ -18,6 +17,7 @@
         </v-btn>
 
         <v-btn text>
+            <v-icon left>mdi-account</v-icon>
             <span class="mr-2">My Account</span> 
         </v-btn>
 
