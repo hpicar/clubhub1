@@ -1,6 +1,6 @@
 <template>
   <div class="myCLubs">
-    <h1 class="ma-4">My Clubs</h1>
+    <h1 class="ma-3">My Clubs</h1>
 
     <v-container class="pa-10">
 
@@ -16,7 +16,8 @@
             </v-responsive>
 
             <v-card-actions :to="club.route">
-              <v-btn flat depressed right color="white grey--text" :to="club.route">
+              <v-spacer></v-spacer>
+              <v-btn flat depressed color="white grey--text" :to="club.route">
                 <span>Explore</span>
                 <v-icon small right>mdi-arrow-right</v-icon>
               </v-btn>

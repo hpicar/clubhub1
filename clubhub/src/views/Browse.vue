@@ -1,6 +1,6 @@
 <template>
     <div class="browse">
-        <h1>Browse</h1>
+        <h1 class="ma-3">Browse</h1>
     </div>
 </template>
 
