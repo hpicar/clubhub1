@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="myCLubs">
     <h1 class="ma-4">My Clubs</h1>
 
     <v-container class="pa-10">
@@ -15,10 +15,10 @@
               image goes here
             </v-responsive>
 
-            <v-card-actions>
-              <v-btn flat depressed color="white grey--text">
-                <v-icon small left>mdi-message</v-icon>
-                <span>Contact</span>
+            <v-card-actions :to="club.route">
+              <v-btn flat depressed right color="white grey--text" :to="club.route">
+                <span>Explore</span>
+                <v-icon small right>mdi-arrow-right</v-icon>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -32,13 +32,13 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'MyCLubs',
   data() {
     return {
       myClubs: [
-        { name: 'Model UN', picture: '' },
-        { name: 'Math Team', picture: '' },
-        { name: 'NTHS', picture: '' },
+        { name: 'Model UN', picture: '', route: '/modelun' },
+        { name: 'Math Team', picture: '', route: '/mathteam' },
+        { name: 'NTHS', picture: '', route: '/nths' },
       ]
     }
   }

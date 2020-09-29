@@ -1,12 +1,11 @@
 <template>
-    <div class="browse">
-        <h1>Browse</h1>
+    <div class="modelUN">
+        <h1>Model UN</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Browse',
     components: {
     }
 }

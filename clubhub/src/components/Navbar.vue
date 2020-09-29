@@ -23,6 +23,10 @@
 
         <v-navigation-drawer app absolute v-model="drawer" color="blue darken-1">
             <v-list>
+                <v-list-item>
+                    <v-list-title class="title">Waipahu High School</v-list-title>
+                </v-list-item>
+                                
                 <v-list-item v-for="link in links" :key="link.text" :to="link.route">
                         <v-list-item-title class="white--text">{{ link.text }}</v-list-item-title>
                 </v-list-item>
@@ -38,8 +42,8 @@ export default {
         return {
             drawer: false,
             links: [
-                { text: 'Home', route: '/'},
-                { text: 'Browse Clubs', route: '/browse'},
+                { text: 'My Clubs', route: '/' },
+                { text: 'Browse Clubs', route: '/browse' },
             ],
         }
     }

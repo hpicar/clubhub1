@@ -1,16 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import MyClubs from '../views/MyClubs.vue'
 import About from '../views/About.vue'
 import Browse from '../views/Browse.vue'
+import ModelUN from '../views/ModelUN.vue'
+import MathTeam from '../views/MathTeam.vue'
+import NTHS from '../views/NTHS.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'MyClubs',
+    component: MyClubs
   },
   {
     path: '/about',
@@ -21,6 +24,21 @@ const routes = [
     path: '/browse',
     name: 'Browse',
     component: Browse
+  },
+  {
+    path: '/modelun',
+    name: 'ModelUN',
+    component: ModelUN
+  },
+  {
+    path: '/mathteam',
+    name: 'MathTeam',
+    component: MathTeam
+  },
+  {
+    path: '/nths',
+    name: 'NTHS',
+    component: NTHS
   }
 ]
 

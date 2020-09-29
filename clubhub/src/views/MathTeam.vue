@@ -1,12 +1,11 @@
 <template>
-    <div class="browse">
-        <h1>Browse</h1>
+    <div class="mathTeam">
+        <h1>Math Team</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Browse',
     components: {
     }
 }
