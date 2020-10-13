@@ -7,6 +7,7 @@ import ModelUN from '../views/ModelUN.vue'
 import MathTeam from '../views/MathTeam.vue'
 import NTHS from '../views/NTHS.vue'
 import InProgress from '../views/InProgress.vue'
+import AboutMUN from '../views/AboutMUN.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/inprogress',
     name: 'InProgress',
     component: InProgress
+  },
+  {
+    path: '/modelunabout',
+    name: 'AboutMUN',
+    component: AboutMUN
   }
 ]
 
