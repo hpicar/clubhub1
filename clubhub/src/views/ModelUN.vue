@@ -4,8 +4,12 @@
             <v-toolbar-title class="ml-15">Model UN</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn text>
-                <v-icon>mdi-calendar-blank</v-icon>
+                <v-icon left>mdi-calendar-blank</v-icon>
                 <span>Events</span>
+            </v-btn>
+            <v-btn text>
+                <v-icon left>mdi-file-document-multiple</v-icon>
+                <span>Resources</span>
             </v-btn>
             <v-btn text>
                 <span>About</span>
@@ -15,7 +19,6 @@
         <h1 class="d-flex justify-center mb-6">Updates</h1>
         <h2>John Doe</h2>
         <p>Hey everyone! We will be holding a meeting on October 7th at 3:30 pm. Please click on this link below to join!</p>
-        <h1>Membership Forms</h1>
          <v-img
             lazy-src="https://picsum.photos/id/11/10/6"
             max-height="150"
