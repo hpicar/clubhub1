@@ -8,6 +8,7 @@ import MathTeam from '../views/MathTeam.vue'
 import NTHS from '../views/NTHS.vue'
 import InProgress from '../views/InProgress.vue'
 import AboutMUN from '../views/AboutMUN.vue'
+import ResourcesMUN from '../views/ResourcesMUN.vue'
 
 Vue.use(VueRouter)
 
@@ -51,6 +52,11 @@ const routes = [
     path: '/modelunabout',
     name: 'AboutMUN',
     component: AboutMUN
+  },
+  {
+    path: '/modelunresources',
+    name: 'ResourcesMUN',
+    component: ResourcesMUN
   }
 ]
 
