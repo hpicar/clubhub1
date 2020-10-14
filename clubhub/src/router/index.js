@@ -9,6 +9,7 @@ import NTHS from '../views/NTHS.vue'
 import InProgress from '../views/InProgress.vue'
 import AboutMUN from '../views/AboutMUN.vue'
 import ResourcesMUN from '../views/ResourcesMUN.vue'
+import CalendarMUN from '../views/CalendarMUN.vue'
 
 Vue.use(VueRouter)
 
@@ -57,7 +58,12 @@ const routes = [
     path: '/modelunresources',
     name: 'ResourcesMUN',
     component: ResourcesMUN
-  }
+  },
+  {
+    path: '/modeluncalendar',
+    name: 'CalendarMUN',
+    component: CalendarMUN
+  },
 ]
 
 const router = new VueRouter({

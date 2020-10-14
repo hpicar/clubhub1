@@ -59,7 +59,7 @@ export default {
   data() {
     return {
       links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '' },
+        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/modeluncalendar' },
         { name: 'Resources', icon: 'mdi-file-document-multiple', route: '/modelunresources' },
         { name: 'Updates', icon: 'mdi-home', route: '/modelun' },
       ]
