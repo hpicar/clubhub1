@@ -14,6 +14,17 @@
     <v-container>
       <v-layout>
         <v-card class="pa-5" min-width="100%">
+          <h2>Stay Connected!</h2>
+          <a href="https://www.w3schools.com/">GroupMe Group Chat<br></a>
+          <a href="https://www.w3schools.com/">Instagram<br></a> 
+          <a href="https://www.w3schools.com/">Google Classroom<br></a>
+        </v-card>
+      </v-layout>
+    </v-container>
+
+    <v-container>
+      <v-layout>
+        <v-card class="pa-5" min-width="100%">
           <h2>Membership Forms</h2>
           <a href="https://www.w3schools.com/">Instructions to Turn in Dues<br></a>
           <a href="https://www.w3schools.com/">Google Form<br></a> 
@@ -47,7 +58,7 @@
 
 <script>
 export default {
-  name: 'MyCLubs',
+  name: 'MyClubs',
   data() {
     return {
       links: [

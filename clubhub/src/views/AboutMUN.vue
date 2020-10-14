@@ -55,12 +55,12 @@
 
 <script>
 export default {
-  name: 'MyCLubs',
+  name: 'MyClubs',
   data() {
     return {
       links: [
         { name: 'Calendar', icon: 'mdi-calendar-blank', route: '' },
-        { name: 'Resources', icon: 'mdi-file-document-multiple', route: '' },
+        { name: 'Resources', icon: 'mdi-file-document-multiple', route: '/modelunresources' },
         { name: 'Updates', icon: 'mdi-home', route: '/modelun' },
       ]
     }
