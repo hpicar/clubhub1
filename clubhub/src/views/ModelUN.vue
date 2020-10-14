@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: 'MyCLubs',
+  name: 'MyClubs',
   data() {
     return {
       links: [
