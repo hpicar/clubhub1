@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div>
     <v-toolbar class="mt-1" height="50">
       <v-toolbar-title class="ml-15">Model United Nations</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -62,7 +62,7 @@ export default {
   data() {
     return {
       links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '' },
+        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/modeluncalendar' },
         { name: 'Updates', icon: 'mdi-home', route: '/modelun' },
         { name: 'About', icon: 'mdi-information', route: '/modelunabout' },      ]
     }
