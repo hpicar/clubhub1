@@ -12,7 +12,7 @@
     <h1 class="d-flex justify-center mt-6">Updates</h1>
       <v-container>
         <v-layout>
-          <v-card class="pa-5">
+          <v-card class="pa-5" min-width="100%">
             <h2>John Doe</h2>
             <p>Hey everyone! We will be holding a meeting on October 7th at 3:30 pm. Please click on this link below to join!</p>
             <v-img
@@ -34,7 +34,7 @@ export default {
     return {
       links: [
         { name: 'Calendar', icon: 'mdi-calendar-blank', route: '' },
-        { name: 'Resources', icon: 'mdi-file-document-multiple', route: '' },
+        { name: 'Resources', icon: 'mdi-file-document-multiple', route: '/modelunresources' },
         { name: 'About', icon: 'mdi-information', route: '/modelunabout' },
       ]
     }
