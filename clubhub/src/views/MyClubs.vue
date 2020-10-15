@@ -12,7 +12,7 @@
             </v-card-text>
 
             <v-responsive class="pt-4">
-              image goes here
+              <v-img :aspect-ratio="16/9"  :src="club.picture"></v-img>
             </v-responsive>
 
             <v-card-actions :to="club.route">
@@ -37,9 +37,9 @@ export default {
   data() {
     return {
       myClubs: [
-        { name: 'Model UN', picture: '../images/nths.jpg', route: '/modelun' },
+        { name: 'Model UN', picture: '', route: '/modelun' },
         { name: 'Math Team', picture: '', route: '/mathteam' },
-        { name: 'NTHS', picture: '', route: '/nths' },
+        { name: 'NTHS', picture: require('../../images/nths.jpg'), route: '/nths' },
       ]
     }
   }
