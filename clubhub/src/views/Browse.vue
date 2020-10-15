@@ -1,6 +1,6 @@
 <template>
     <div class="browse">
-        <h1 class="ma-3">Browse</h1>
+        <h1 class="d-flex justify-center mt-6">Browse</h1>
         <v-container class="pa-10">
 
             <v-layout row wrap>

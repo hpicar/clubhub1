@@ -1,13 +1,6 @@
 <template>
   <div class="about">
-    <v-toolbar class="mt-1" height="50">
-      <v-toolbar-title class="ml-15">Math Team</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn text v-for="link in links" :key="link.name" :to="link.route">
-        <v-icon left>{{ link.icon }}</v-icon>
-        <span>{{ link.name }}</span>
-      </v-btn>
-    </v-toolbar>
+    <ToolbarMT/>
 
     <h1 class="d-flex justify-center mt-6">About</h1>
     <v-container>
@@ -43,15 +36,16 @@
 </template>
 
 <script>
+import ToolbarMT from '../components/ToolbarMT.vue'
+
 export default {
   name: 'MyClubs',
+  components: {
+    ToolbarMT
+  },
   data() {
     return {
-      links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/mathteamcalendar' },
-        { name: 'Resources', icon: 'mdi-file-document-multiple', route: '/mathteamresources' },
-        { name: 'Updates', icon: 'mdi-home', route: '/mathteam' },
-      ]
+      
     }
   }
 }
