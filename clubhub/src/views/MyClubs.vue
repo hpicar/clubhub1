@@ -1,6 +1,13 @@
 <template>
   <div class="myCLubs">
-    <h1 class="ma-3">My Clubs</h1>
+    <v-toolbar class="mt-1" height="50">
+      <v-toolbar-title class="ml-15">My Clubs</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn text v-for="link in links" :key="link.name" :to="link.route">
+        <v-icon left>{{ link.icon }}</v-icon>
+        <span>{{ link.name }}</span>
+      </v-btn>
+    </v-toolbar>
 
     <v-container class="pa-10">
 
