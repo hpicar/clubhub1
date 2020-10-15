@@ -41,15 +41,6 @@
         </v-card>
       </v-layout>
     </v-container>
-    
-    <v-container>
-      <v-layout>
-        <v-card class="pa-5" min-width="100%">
-          <h2>Academies</h2>
-          <p></p>
-        </v-card>
-      </v-layout>
-    </v-container>
   </div>
 </template>
 
