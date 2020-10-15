@@ -10,6 +10,9 @@ import InProgress from '../views/InProgress.vue'
 import AboutMUN from '../views/AboutMUN.vue'
 import ResourcesMUN from '../views/ResourcesMUN.vue'
 import CalendarMUN from '../views/CalendarMUN.vue'
+import AboutMT from '../views/AboutMT.vue'
+import ResourcesMT from '../views/ResourcesMT.vue'
+import CalendarMT from '../views/CalendarMT.vue'
 
 Vue.use(VueRouter)
 
@@ -63,6 +66,21 @@ const routes = [
     path: '/modeluncalendar',
     name: 'CalendarMUN',
     component: CalendarMUN
+  },
+  {
+    path: '/mathteamabout',
+    name: 'AboutMT',
+    component: AboutMT
+  },
+  {
+    path: '/mathteamresources',
+    name: 'ResourcesMT',
+    component: ResourcesMT
+  },
+  {
+    path: '/mathteamcalendar',
+    name: 'CalendarMT',
+    component: CalendarMT
   },
 ]
 

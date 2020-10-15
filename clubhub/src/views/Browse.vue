@@ -35,8 +35,8 @@ export default {
     data() {
     return {
       myClubs: [
-        { name: 'AHS Student BOD', picture: '', route: '/inprogress' },
-        { name: 'AOE', picture: '', route: '/inprogress' },
+        { name: 'AHS Student Board of Directors', picture: '', route: '/inprogress' },
+        { name: 'Academy of Engineering', picture: '', route: '/inprogress' },
         { name: 'Art Club', picture: '', route: '/inprogress' },
         { name: 'AVID Service Club', picture: '', route: '/inprogress' },
         { name: 'Black Cultural Club', picture: '', route: '/inprogress' },
@@ -80,7 +80,7 @@ export default {
         { name: 'SLAM Poetry', picture: '', route: '/inprogress' },
         { name: 'Student Government', picture: '', route: '/inprogress' },
         { name: 'SOAR Book Club', picture: '', route: '/inprogress' },
-        { name: 'Sociedad Honorana Hispanica', picture: '', route: '/inprogress' },
+        { name: 'Sociedad Honoraria Hispánica', picture: '', route: '/inprogress' },
         { name: 'Spanish Club', picture: '', route: '/inprogress' },
         { name: 'Speech and Debate', picture: '', route: '/inprogress' },
         { name: 'We Are Micronesia', picture: '', route: '/inprogress' },

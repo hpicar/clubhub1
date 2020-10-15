@@ -37,7 +37,7 @@ export default {
   data() {
     return {
       myClubs: [
-        { name: 'Model United Nations', picture: '', route: '/modelun' },
+        { name: 'Model UN', picture: '', route: '/modelun' },
         { name: 'Math Team', picture: '', route: '/mathteam' },
         { name: 'NTHS', picture: '', route: '/nths' },
       ]

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-toolbar class="mt-1" height="50">
-      <v-toolbar-title class="ml-15">Model UN</v-toolbar-title>
+      <v-toolbar-title class="ml-15">Math Team</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text v-for="link in links" :key="link.name" :to="link.route">
         <v-icon left>{{ link.icon }}</v-icon>
@@ -42,24 +42,24 @@
     <v-container>
       <v-layout>
         <v-card class="pa-5" min-width="100%">
-          <h2>Sources for UN Committees</h2>
+          <h2>Sources for Meets</h2>
 
           <v-list>
             <v-list-group :value="true">
               <template v-slot:activator>
                 <v-list-item-content>
-                  <v-list-item-title>South Korea</v-list-item-title>
+                  <v-list-item-title>Meet 2</v-list-item-title>
                 </v-list-item-content>
               </template>
               <v-list-item-group>
                 <v-list-item>
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Wars</v-list-item-title>
+                    <v-list-item-title class="ml-7">Event 1</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Economy</v-list-item-title>
+                    <v-list-item-title class="ml-7">Event 2</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
               </v-list-item-group>
@@ -68,18 +68,18 @@
             <v-list-group :value="true">
               <template v-slot:activator>
                 <v-list-item-content>
-                  <v-list-item-title>North Korea</v-list-item-title>
+                  <v-list-item-title>Meet 1</v-list-item-title>
                 </v-list-item-content>
               </template>
               <v-list-item-group>
                 <v-list-item>
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Wars</v-list-item-title>
+                    <v-list-item-title class="ml-7">Event 1</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
                 <v-list-item>
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Economy</v-list-item-title>
+                    <v-list-item-title class="ml-7">Event 2</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
               </v-list-item-group>
@@ -97,20 +97,16 @@ export default {
   data() {
     return {
       links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/modeluncalendar' },
-        { name: 'Updates', icon: 'mdi-home', route: '/modelun' },
-        { name: 'About', icon: 'mdi-information', route: '/modelunabout' }
+        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/mathteamcalendar' },
+        { name: 'Updates', icon: 'mdi-home', route: '/mathteam' },
+        { name: 'About', icon: 'mdi-information', route: '/mathteam' }
       ],
       connections: [
         { name: 'GroupMe'},
-        { name: 'Instagram'},
-        { name: 'Twitter'},
         { name: 'Google Classroom'}
       ],
       forms: [
-        { name: 'Instructions to Turn in Dues'},
-        { name: 'Google Form'},
-        { name: 'Paper Form'}
+        { name: 'Google Form'}
       ]
     }
   }
