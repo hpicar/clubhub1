@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <ToolbarMUN/>
+    <div>
+      <ToolbarMUN/>
 
-    <h1 class="d-flex justify-center mt-6">Updates</h1>
-      
+      <h1 class="d-flex justify-center mt-6">Updates</h1>
+
       <v-container>
         <v-layout>
           <v-card class="pa-5" min-width="100%">
@@ -45,8 +45,7 @@
           </v-card>
         </v-layout>
       </v-container>
-
-  </div>
+    </div>
 </template>
 
 <script>
@@ -57,9 +56,13 @@ export default {
   components: {
     ToolbarMUN
   },
-  data() {
-    return {
-    }
+    data () {
+      return {
+        items: [
+          { title: 'Membership Forms', icon: 'mdi-view-dashboard' },
+          { title: 'Field Trip Forms', icon: 'mdi-forum' },
+        ],
+      }
+    },
   }
-}
 </script>
