@@ -1,8 +1,8 @@
 <template>
   <div class="myCLubs">
-    <h1 class="ma-3">My Clubs</h1>
+    <h1 class="d-flex justify-center mt-6">My Clubs</h1>
 
-    <v-container class="pa-10">
+    <v-container class="px-10">
 
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 v-for="club in myClubs" :key="club.name">
@@ -12,7 +12,7 @@
             </v-card-text>
 
             <v-responsive class="pt-4">
-              image goes here
+              <v-img :aspect-ratio="16/9"  :src="club.picture"></v-img>
             </v-responsive>
 
             <v-card-actions :to="club.route">
@@ -33,13 +33,13 @@
 
 <script>
 export default {
-  name: 'MyCLubs',
+  name: 'MyClubs',
   data() {
     return {
       myClubs: [
         { name: 'Model UN', picture: '', route: '/modelun' },
         { name: 'Math Team', picture: '', route: '/mathteam' },
-        { name: 'NTHS', picture: '', route: '/nths' },
+        { name: 'NTHS', picture: require('../../images/nths.jpg'), route: '/nths' },
       ]
     }
   }
