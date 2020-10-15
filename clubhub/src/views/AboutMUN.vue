@@ -60,9 +60,9 @@ export default {
   data() {
     return {
       pics: [
-        { src: require('../../images/nths.jpg') },
-        { src: require('../../images/nths.jpg') },
-        { src: require('../../images/nths.jpg') },
+        { src: require('../../images/munCapital.jpg') },
+        { src: require('../../images/munChristmas.jpg') },
+        { src: require('../../images/munGroup.jpg') },
       ]
     }
   }
