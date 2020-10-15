@@ -42,6 +42,8 @@
 </template>
 
 <script>
+import ToolbarMUN from '../components/ToolbarMUN.vue'
+
 export default {
     data () {
       return {

@@ -44,6 +44,8 @@
 </template>
 
 <script>
+import ToolbarMT from '../components/ToolbarMT.vue'
+
 export default {
     data () {
       return {
