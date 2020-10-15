@@ -4,6 +4,18 @@
 
     <h1 class="d-flex justify-center mt-6">About</h1>
     <v-container>
+    <v-layout>
+    <v-card class="pa-5" min-width="100%">
+    <v-carousel>
+      <v-carousel-item v-for="(pic, i) in pics" :key="i" :src="pic.src"
+        reverse-transition="fade-transition" transition="fade-transition"
+      ></v-carousel-item>
+    </v-carousel>
+    </v-card>
+    </v-layout>
+    </v-container>
+
+    <v-container>
       <v-layout>
         <v-card class="pa-5" min-width="100%">
           <h2>Description</h2>
@@ -47,10 +59,10 @@ export default {
   },
   data() {
     return {
-      links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/modeluncalendar' },
-        { name: 'Resources', icon: 'mdi-file-document-multiple', route: '/modelunresources' },
-        { name: 'Updates', icon: 'mdi-home', route: '/modelun' },
+      pics: [
+        { src: require('../../images/nths.jpg') },
+        { src: require('../../images/nths.jpg') },
+        { src: require('../../images/nths.jpg') },
       ]
     }
   }
