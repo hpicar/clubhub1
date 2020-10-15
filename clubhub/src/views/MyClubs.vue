@@ -1,15 +1,8 @@
 <template>
   <div class="myCLubs">
-    <v-toolbar class="mt-1" height="50">
-      <v-toolbar-title class="ml-15">My Clubs</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn text v-for="link in links" :key="link.name" :to="link.route">
-        <v-icon left>{{ link.icon }}</v-icon>
-        <span>{{ link.name }}</span>
-      </v-btn>
-    </v-toolbar>
+    <h1 class="d-flex justify-center mt-6">My Clubs</h1>
 
-    <v-container class="pa-10">
+    <v-container class="px-10">
 
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 v-for="club in myClubs" :key="club.name">
