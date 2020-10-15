@@ -1,13 +1,6 @@
 <template>
   <div>
-    <v-toolbar class="mt-1" height="50">
-      <v-toolbar-title class="ml-15">Model UN</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn text v-for="link in links" :key="link.name" :to="link.route">
-        <v-icon left>{{ link.icon }}</v-icon>
-        <span>{{ link.name }}</span>
-      </v-btn>
-    </v-toolbar>
+    <ToolbarMUN/>
 
     <h1 class="d-flex justify-center mt-6">Resources</h1>
 
@@ -92,15 +85,15 @@
 </template>
 
 <script>
+import ToolbarMUN from '../components/ToolbarMUN.vue'
+
 export default {
   name: 'MyClubs',
+  components: {
+    ToolbarMUN
+  },
   data() {
     return {
-      links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/modeluncalendar' },
-        { name: 'Updates', icon: 'mdi-home', route: '/modelun' },
-        { name: 'About', icon: 'mdi-information', route: '/modelunabout' }
-      ],
       connections: [
         { name: 'GroupMe'},
         { name: 'Instagram'},
