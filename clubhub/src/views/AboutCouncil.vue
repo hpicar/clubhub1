@@ -17,8 +17,17 @@
     <v-container>
       <v-layout>
         <v-card class="pa-5" min-width="100%">
+          <h2>Requirements & Admissions Process</h2>
+          <p>You must be a part of Royal Rebels, c/o 2021. We open up admissions at the end of every school year, where you must fill out a membership form and answer questions. Then, we pick a handful amount of students from our sea of applicants and you will recieve an email if you have or have not made it to round 2 of the admissions process, the interview. After the interview, you will then be notified whether or not you have been accepted into the c/o 2021 Student Council!</p>
+        </v-card>
+      </v-layout>
+    </v-container>
+    
+    <v-container>
+      <v-layout>
+        <v-card class="pa-5" min-width="100%">
           <h2>Description</h2>
-          <p>Model United Nations, also known as Model UN or MUN, is a club offered at Waipahu High School where students represent a country or person and discuss a specific topic through attending conferences simulating committee sessions like the ones held in UN assemblies, with regards to pre-established international laws and affairs. The goal is to, hopefully, come up with a resolution all people and countries can agree on.</p>
+          <p>c/o 2021 Student Council helps plan the big school events at Waipahu High School! By being in student council, you become a part of developing and executing the unforgettable moments of high school for your class. Student council is not just a club, it's almost like a second family. While we do hard work, we don't forget to have fun and build these strong bonds and relationships with each other, our fellow councils, and student government.</p>
         </v-card>
       </v-layout>
     </v-container>
@@ -28,9 +37,9 @@
         <v-card class="pa-5" min-width="100%">
           <h2>Main Events</h2>
           <ul>
-            <li>Attend Model UN conferences and partake in committee sessions with delegates from different schools/states/countries</li>
-            <li>Social events to bond with other members of the club</li>
-            <li>Go on field trips related to law and politics</li>
+            <li>Plan huge events like Senior Prom and Arthur Awards for the c/o 2021</li>
+            <li>Social events and field trips to bond with other councils, student government, and members of the club</li>
+            <li>"Monthly Social Thing" (MST) during lunch and/or advisory every month</li>
           </ul>
         </v-card>
       </v-layout>
@@ -40,7 +49,7 @@
       <v-layout>
         <v-card class="pa-5" min-width="100%">
           <h2>Meetings</h2>
-          <p>Every Tuesday from 3:00 pm — 4:30 pm and Sunday from 5:00 pm — 6:30 pm.</p>
+          <p>During the summer, advisory, and varies after school.</p>
         </v-card>
       </v-layout>
     </v-container>
@@ -50,17 +59,12 @@
         <v-card class="pa-5" min-width="100%">
           <h2>Officers & Advisor</h2>
           <ul>
-            <li>Advisor: Mrs. Carli Doi</li>
-            <li>Senior President: Harvey Picar</li>
-            <li>Senior Vice President: Ashley Valois</li>
-            <li>Senior Secretary: Tadashi Enne</li>
-            <li>Senior Treasurer: Emylee Kapua</li>
-            <li>Senior Historian: Jomari Tugade</li>
-            <li>Junior President: Clyds Bautista</li>
-            <li>Junior Vice President: Hannah Apostol</li>
-            <li>Junior Secretary: Scott Eugenio</li>
-            <li>Junior Treasurer: Mary Calamayan</li>
-            <li>Junior Historian: Caelin Callejo</li>
+            <li>Advisor: Ms. Lindsay Kosasa</li>
+            <li>President: Grace Chinen</li>
+            <li>Vice President: Harvey Picar</li>
+            <li>Secretary: Ashley Valois</li>
+            <li>Treasurer: Kristine Orpilla</li>
+            <li>Co-Treasurer: Alyssa Buccat</li>
           </ul>
         </v-card>
       </v-layout>
@@ -72,8 +76,18 @@
           <h2>Contact Us!</h2>
           <v-btn 
             text class="ma-5"
-            href="https://www.instagram.com/waipahumun/" target="_blank">
+            href="https://www.instagram.com/royalrebels2021/" target="_blank">
             <span>Instagram</span>
+          </v-btn>
+          <v-btn 
+            text class="ma-5"
+            href="https://www.twitter.com/royalrebels2021/" target="_blank">
+            <span>Twitter</span>
+          </v-btn>
+          <v-btn 
+            text class="ma-5"
+            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrdlQqthgXGSVngWxVkhKTMqJrVBkXJkmwbBVLDmbpQtGfQxDvbprZTmFxWvwttfsqVrnV" target="_blank">
+            <span>Email</span>
           </v-btn>
         </v-card>
       </v-layout>
@@ -89,9 +103,11 @@ export default {
   data() {
     return {
       pics: [
-        { src: require('../../images/munCapital.jpg') },
-        { src: require('../../images/munChristmas.jpg') },
-        { src: require('../../images/munGroup.jpg') },
+        { src: require('../../images/c:o21scArthurAwards.jpeg') },
+        { src: require('../../images/c:o21scLegacyCamp.jpeg') },
+        { src: require('../../images/c:o21scPajamaDay.jpeg') },
+        { src: require('../../images/c:o21scWinterSocial.jpeg') },
+        { src: require('../../images/c:o21scJuniorProm.jpeg') },
       ],
     }
   }
