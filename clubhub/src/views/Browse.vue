@@ -17,8 +17,8 @@
                         <v-card-actions :to="club.route">
                             <v-spacer></v-spacer>
                             <v-btn flat depressed color="white grey--text" :to="club.route">
-                                <span>Contact Us</span>
-                                <v-icon small right>mdi-email</v-icon>
+                                <span>About Us</span>
+                                <v-icon small right>mdi-information</v-icon>
                             </v-btn>
                         </v-card-actions>
                     </v-card>
