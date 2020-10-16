@@ -96,8 +96,6 @@ export default {
     return {
       connections: [
         { name: 'GroupMe'},
-        { name: 'Instagram'},
-        { name: 'Twitter'},
         { name: 'Google Classroom'}
       ],
       forms: [
