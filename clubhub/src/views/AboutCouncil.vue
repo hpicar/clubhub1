@@ -103,11 +103,11 @@ export default {
   data() {
     return {
       pics: [
-        { src: require('../../images/c:o21scArthurAwards.jpeg') },
-        { src: require('../../images/c:o21scLegacyCamp.jpeg') },
-        { src: require('../../images/c:o21scPajamaDay.jpeg') },
-        { src: require('../../images/c:o21scWinterSocial.jpeg') },
-        { src: require('../../images/c:o21scJuniorProm.jpeg') },
+        { src: require('../../images/co21scArthurAwards.jpg') },
+        { src: require('../../images/co21scLegacyCamp.jpg') },
+        { src: require('../../images/co21scPajamaDay.jpg') },
+        { src: require('../../images/co21scWinterSocial.jpg') },
+        { src: require('../../images/co21scJuniorProm.jpg') },
       ],
     }
   }

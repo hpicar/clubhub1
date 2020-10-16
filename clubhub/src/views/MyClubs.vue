@@ -14,14 +14,20 @@
             <v-responsive class="pt-4">
               <v-img :aspect-ratio="14/9"  :src="club.picture"></v-img>
             </v-responsive>
-
-            <v-card-actions :to="club.route">
+            <v-row class="px-5">
+              <v-card-actions :to="club.route">
+                <v-btn flat depressed color="white grey--text" :to="club.link">
+                  <span>Meeting</span>
+                </v-btn>
+              </v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn flat depressed color="white grey--text" :to="club.route">
-                <span>Explore</span>
-                <v-icon small right>mdi-arrow-right</v-icon>
-              </v-btn>
-            </v-card-actions>
+              <v-card-actions :to="club.route">
+                <v-btn flat depressed color="white grey--text" :to="club.route">
+                  <span>Explore</span>
+                  <v-icon small right>mdi-arrow-right</v-icon>
+                </v-btn>
+              </v-card-actions>
+            </v-row>
           </v-card>
         </v-flex>
       </v-layout>
@@ -37,7 +43,7 @@ export default {
   data() {
     return {
       myClubs: [
-        { name: 'Model UN', picture: require('../../images/munGroup.jpg'), route: '/modelun' },
+        { name: 'Model UN', picture: require('../../images/munGroup.jpg'), route: '/modelun', link: '' },
         { name: 'Math Team', picture: require('../../images/mtGroup.jpeg'), route: '/mathteam' },
         { name: 'NTHS', picture: require('../../images/nths.jpg'), route: '/nths' },
         { name: 'AOE', picture: require('../../images/aoeGroup.jpeg'), route: '' },
