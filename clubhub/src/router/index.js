@@ -12,6 +12,7 @@ import ResourcesMUN from '../views/ResourcesMUN.vue'
 import AboutMT from '../views/AboutMT.vue'
 import ResourcesMT from '../views/ResourcesMT.vue'
 import MyAccount from '../views/MyAccount.vue'
+import AboutCouncil from '../views/AboutCouncil.vue'
 
 
 Vue.use(VueRouter)
@@ -76,6 +77,11 @@ const routes = [
     path: '/myaccount',
     name: 'MyAccount',
     component: MyAccount
+  },
+  {
+    path: '/councilabout',
+    name: 'AboutCouncil',
+    component: AboutCouncil
   },
 ]
 
