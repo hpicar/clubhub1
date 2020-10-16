@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MyClubs from '../views/MyClubs.vue'
-import About from '../views/About.vue'
 import Browse from '../views/Browse.vue'
+import Calendar from '../views/Calendar.vue'
 import ModelUN from '../views/ModelUN.vue'
 import MathTeam from '../views/MathTeam.vue'
 import NTHS from '../views/NTHS.vue'
@@ -23,14 +23,14 @@ const routes = [
     component: MyClubs
   },
   {
-    path: '/about',
-    name: 'About',
-    component: About
-  },
-  {
     path: '/browse',
     name: 'Browse',
     component: Browse
+  },
+  {
+    path: '/calendar',
+    name: 'Calendar',
+    component: Calendar
   },
   {
     path: '/modelun',

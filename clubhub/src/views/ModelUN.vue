@@ -1,43 +1,50 @@
 <template>
     <div>
-        <v-toolbar class="mt-1" height="50">
-            <v-toolbar-title class="ml-15">Model UN</v-toolbar-title>
-            <v-spacer></v-spacer>
+      <ToolbarMUN/>
 
-            <v-btn text>
-                <v-icon>mdi-calendar-blank</v-icon>
-                <span>Events</span>
-            </v-btn>
+      <h1 class="d-flex justify-center mt-6">Updates</h1>
 
-            <v-btn text>
-                <span>About</span>
-            </v-btn>
-        </v-toolbar>
+      <v-container>
+        <v-layout>
+          <v-card class="pa-5" min-width="100%">
+            <h2>Joseph Doe - Historian</h2>
+            <p>Please follow us on Instagram and Twitter! The links to the socials can be found in the Resources tab.</p>
+            <v-img
+              max-height="150"
+              max-width="250"
+              src="https://viettimarketing.com/wp-content/uploads/2016/07/Follow-Us.png"
+            ></v-img>
+          </v-card>
+        </v-layout>
+      </v-container>
 
-        <v-navigation-drawer
-            floating
-            permanent
-            class = "pt-15"
-        >
-            <v-list
-            dense
-            rounded
-            >
-            <v-list-item
-                v-for="item in items"
-                :key="item.title"
-                link
-            >
-            <v-list-item-icon>
-                <v-icon>{{ item.icon }}</v-icon>
-            </v-list-item-icon>
+      <v-container>
+        <v-layout>
+          <v-card class="pa-5" min-width="100%">
+            <h2>John Doe - President</h2>
+            <p>Hey everyone! We will be holding a meeting on October 7th at 3:30 pm. Please go to the Resources tab for the Meet link!</p>
+            <v-img
+              max-height="150"
+              max-width="250"
+              src="https://st.depositphotos.com/1054979/2298/v/450/depositphotos_22989012-stock-illustration-see-you-soon-stamp.jpg"
+            ></v-img>
+          </v-card>
+        </v-layout>
+      </v-container>
 
-            <v-list-item-content>
-              <v-list-item-title>{{ item.title }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-navigation-drawer>
+      <v-container>
+        <v-layout>
+          <v-card class="pa-5" min-width="100%">
+            <h2>Jane Doe - Advisor</h2>
+            <p>Just a reminder that membership forms are due on October 2nd.</p>
+            <v-img
+              max-height="150"
+              max-width="250"
+              src="https://www.mpsadvantage.education/storage/2018/02/just-a-reminder.png"
+            ></v-img>
+          </v-card>
+        </v-layout>
+      </v-container>
     </div>
 </template>
 
@@ -45,6 +52,10 @@
 import ToolbarMUN from '../components/ToolbarMUN.vue'
 
 export default {
+  name: 'MyClubs',
+  components: {
+    ToolbarMUN
+  },
     data () {
       return {
         items: [

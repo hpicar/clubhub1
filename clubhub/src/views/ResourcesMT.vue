@@ -25,7 +25,7 @@
           <v-btn 
             text class="ma-5"
             v-for="form in forms" :key="form.name"
-            href="https://w3schools.com" target="_blank">
+            href="https://forms.gle/WDUzXKsFwZtHD2Vj9" target="_blank">
             <span>{{ form.name }}</span>
           </v-btn>
         </v-card>
