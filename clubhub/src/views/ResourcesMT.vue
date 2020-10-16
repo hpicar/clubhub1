@@ -58,7 +58,7 @@
               </v-list-item-group>
             </v-list-group>
 
-            <v-list-group :value="true">
+            <v-list-group :value="false">
               <template v-slot:activator>
                 <v-list-item-content>
                   <v-list-item-title>Meet 1</v-list-item-title>

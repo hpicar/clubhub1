@@ -35,24 +35,24 @@
     <v-container>
       <v-layout>
         <v-card class="pa-5" min-width="100%">
-          <h2>Sources for UN Committees</h2>
+          <h2>Conferences</h2>
 
           <v-list>
             <v-list-group :value="true">
               <template v-slot:activator>
                 <v-list-item-content>
-                  <v-list-item-title>South Korea</v-list-item-title>
+                  <v-list-item-title>PACMUN</v-list-item-title>
                 </v-list-item-content>
               </template>
               <v-list-item-group>
-                <v-list-item>
+                <v-list-item href="https://www.pacmun.org/" target="_blank">
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Wars</v-list-item-title>
+                    <v-list-item-title class="ml-7">Website</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
-                <v-list-item>
+                <v-list-item href="https://forms.gle/efHg6fEXrdsJHDh1A" target="_blank">
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Economy</v-list-item-title>
+                    <v-list-item-title class="ml-7">Registration</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
               </v-list-item-group>
@@ -61,18 +61,18 @@
             <v-list-group :value="true">
               <template v-slot:activator>
                 <v-list-item-content>
-                  <v-list-item-title>North Korea</v-list-item-title>
+                  <v-list-item-title>'Iolani MUNC</v-list-item-title>
                 </v-list-item-content>
               </template>
               <v-list-item-group>
-                <v-list-item>
+                <v-list-item href="https://sites.google.com/a/iolani.org/iolani-mun/conferences/iomunc" target="_blank">
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Wars</v-list-item-title>
+                    <v-list-item-title class="ml-7">Website</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
-                <v-list-item>
+                <v-list-item href="https://docs.google.com/forms/d/e/1FAIpQLScmYNEVl9CKjO1vhhBV8B-BFpQS09emhjLsn7VbeYepTxw0Pw/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
                   <v-list-content>
-                    <v-list-item-title class="ml-7">Economy</v-list-item-title>
+                    <v-list-item-title class="ml-7">Registration</v-list-item-title>
                   </v-list-content>
                 </v-list-item>
               </v-list-item-group>
@@ -96,8 +96,6 @@ export default {
     return {
       connections: [
         { name: 'GroupMe'},
-        { name: 'Instagram'},
-        { name: 'Twitter'},
         { name: 'Google Classroom'}
       ],
       forms: [
