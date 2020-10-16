@@ -7,8 +7,8 @@
       <v-container>
         <v-layout>
           <v-card class="pa-5" min-width="100%">
-            <h2>Joseph Doe - Historian</h2>
-            <p>Please follow us on Instagram and Twitter! The links to the socials can be found in the Resources tab.</p>
+            <h2>Jomari Tugade - Senior Historian</h2>
+            <p>Please follow us on Instagram! The links can be found in the About tab or search up "waipahumun" in the Instagram search bar.</p>
             <v-img
               max-height="150"
               max-width="250"
@@ -21,8 +21,8 @@
       <v-container>
         <v-layout>
           <v-card class="pa-5" min-width="100%">
-            <h2>John Doe - President</h2>
-            <p>Hey everyone! We will be holding a meeting on October 7th at 3:30 pm. Please go to the Resources tab for the Meet link!</p>
+            <h2>Harvey Picar - Senior President</h2>
+            <p>Hey everyone! We will be having a meeting on Tuesday, September 29th from 3:00 pm — 4:30 pm! If you can't make it, please attend the one on Sunday, October 4th from 5:00 pm — 6:30 pm! Let me know if you have any questions.</p>
             <v-img
               max-height="150"
               max-width="250"
@@ -35,8 +35,8 @@
       <v-container>
         <v-layout>
           <v-card class="pa-5" min-width="100%">
-            <h2>Jane Doe - Advisor</h2>
-            <p>Just a reminder that membership forms are due on October 2nd.</p>
+            <h2>Mrs. Carli Doi - Advisor</h2>
+            <p>Just a reminder that membership forms are due on Sunday, September 27 by 11:59 pm.</p>
             <v-img
               max-height="150"
               max-width="250"
