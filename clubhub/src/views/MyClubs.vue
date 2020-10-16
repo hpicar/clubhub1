@@ -40,6 +40,7 @@ export default {
         { name: 'Model UN', picture: require('../../images/munGroup.jpg'), route: '/modelun' },
         { name: 'Math Team', picture: require('../../images/mtGroup.jpeg'), route: '/mathteam' },
         { name: 'NTHS', picture: require('../../images/nths.jpg'), route: '/nths' },
+        { name: 'AOE', picture: require('../../images/aoeGroup.jpeg'), route: '' },
       ]
     }
   }

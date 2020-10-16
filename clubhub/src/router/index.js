@@ -11,6 +11,8 @@ import AboutMUN from '../views/AboutMUN.vue'
 import ResourcesMUN from '../views/ResourcesMUN.vue'
 import AboutMT from '../views/AboutMT.vue'
 import ResourcesMT from '../views/ResourcesMT.vue'
+import MyAccount from '../views/MyAccount.vue'
+
 
 Vue.use(VueRouter)
 
@@ -69,6 +71,11 @@ const routes = [
     path: '/mathteamresources',
     name: 'ResourcesMT',
     component: ResourcesMT
+  },
+  {
+    path: '/myaccount',
+    name: 'MyAccount',
+    component: MyAccount
   },
 ]
 

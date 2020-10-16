@@ -3,7 +3,7 @@
     <h1 class="d-flex justify-center mt-6">My Calendar</h1>  
     <v-row>
     <v-col>
-      <v-sheet height="400">
+      <v-sheet height="500">
         <v-calendar
           ref="calendar"
           :now="today"
@@ -35,8 +35,18 @@
           },
           {
             name: 'MUN Meeting',
-            start: '2020-10-12 14:30',
-            end: '2020-10-12 15:30',
+            start: '2020-10-13 15:00',
+            end: '2020-10-13 16:30',
+          },
+          {
+            name: 'MUN Meeting',
+            start: '2020-10-11 17:00',
+            end: '2020-10-11 18:30',
+          },
+          {
+            name: 'NTHS Meeting',
+            start: '2020-10-16 19:00',
+            end: '2020-10-16 19:30',
           },
         ],
       }
