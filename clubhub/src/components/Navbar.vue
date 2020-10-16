@@ -23,7 +23,7 @@ export default {
                 { text: 'Master Calendar', icon:'mdi-calendar', route: '/calendar' },
                 { text: 'My Clubs', icon:'mdi-home', route: '/' },
                 { text: 'Browse Clubs', icon:'mdi-magnify', route: '/browse' },
-                { text: 'My Account', icon:'mdi-account', route: '' },
+                { text: 'My Account', icon:'mdi-account', route: '/myaccount' },
             ],
         }
     }
