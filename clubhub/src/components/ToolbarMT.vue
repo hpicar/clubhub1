@@ -17,7 +17,6 @@ export default {
   data() {
     return {
       links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/mathteamcalendar' },
         { name: 'Updates', icon: 'mdi-home', route: '/mathteam' },
         { name: 'Resources', icon: 'mdi-file-document-multiple', route: '/mathteamresources' },
         { name: 'About', icon: 'mdi-information', route: '/mathteamabout' }

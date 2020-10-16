@@ -17,7 +17,6 @@ export default {
   data() {
     return {
       links: [
-        { name: 'Calendar', icon: 'mdi-calendar-blank', route: '/modeluncalendar' },
         { name: 'Updates', icon: 'mdi-home', route: '/modelun' },
         { name: 'Resources', icon: 'mdi-file-document-multiple', route: '/modelunresources' },
         { name: 'About', icon: 'mdi-information', route: '/modelunabout' }
