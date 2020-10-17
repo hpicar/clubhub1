@@ -15,8 +15,9 @@
               <v-img :aspect-ratio="14/9"  :src="club.picture"></v-img>
             </v-responsive>
             <v-row class="px-5">
-              <v-card-actions :to="club.route">
-                <v-btn flat depressed color="white grey--text" :to="club.link">
+              <v-card-actions>
+                <v-btn flat depressed color="white grey--text"
+                  href="https://us04web.zoom.us/j/3229898796?pwd=d3lEUkFGSXRrZGwxSmk0dkpvT1BrUT09/" target="_blank">
                   <span>Meeting</span>
                 </v-btn>
               </v-card-actions>
