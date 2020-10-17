@@ -16,17 +16,13 @@
             </v-responsive>
 
             <v-card-actions :to="club.route">
-              <v-btn flat depressed color="white grey--text" :to="club.link">
-                <span>Meeting</span>
-              </v-btn>
-            </v-card-actions>
-
-            <v-card-actions :to="club.route">
+              <v-spacer></v-spacer>
               <v-btn flat depressed color="white grey--text" :to="club.route">
-                <span>Explore</span>
+                <span>About Us</span>
                 <v-icon small right>mdi-arrow-right</v-icon>
               </v-btn>
             </v-card-actions>
+
           </v-card>
         </v-flex>
       </v-layout>
